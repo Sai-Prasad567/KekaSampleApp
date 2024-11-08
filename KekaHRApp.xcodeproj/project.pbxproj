@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4B13ABD2CDCD9950040F638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13ABC2CDCD9950040F638 /* AppDelegate.swift */; };
+		F4B13ABF2CDCD9950040F638 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13ABE2CDCD9950040F638 /* SceneDelegate.swift */; };
+		F4B13AC12CDCD9950040F638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13AC02CDCD9950040F638 /* ViewController.swift */; };
+		F4B13AC42CDCD9950040F638 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F4B13AC32CDCD9950040F638 /* Base */; };
+		F4B13AC62CDCD9970040F638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B13AC52CDCD9970040F638 /* Assets.xcassets */; };
+		F4B13AC92CDCD9970040F638 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F4B13AC82CDCD9970040F638 /* Base */; };
+		F4B13AD42CDCD9970040F638 /* KekaHRAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13AD32CDCD9970040F638 /* KekaHRAppTests.swift */; };
+		F4B13ADE2CDCD9970040F638 /* KekaHRAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13ADD2CDCD9970040F638 /* KekaHRAppUITests.swift */; };
+		F4B13AE02CDCD9970040F638 /* KekaHRAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13ADF2CDCD9970040F638 /* KekaHRAppUITestsLaunchTests.swift */; };
+		F4B13AEF2CDCDC1D0040F638 /* KekaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13AEE2CDCDC1D0040F638 /* KekaModel.swift */; };
+		F4B13AF12CDCDD8E0040F638 /* KekeAPITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13AF02CDCDD8E0040F638 /* KekeAPITableViewCell.swift */; };
+		F4B13AF32CDD02000040F638 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13AF22CDD02000040F638 /* APIManager.swift */; };
+		F4B13AF52CDD05000040F638 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13AF42CDD05000040F638 /* CoreDataManager.swift */; };
+		F4B13AF72CDD1DA50040F638 /* KekaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13AF62CDD1DA50040F638 /* KekaViewModel.swift */; };
+		F4B13AF92CDD2ACA0040F638 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13AF82CDD2ACA0040F638 /* Extensions.swift */; };
+		F4B13AFB2CDDC62B0040F638 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13AFA2CDDC62B0040F638 /* Protocols.swift */; };
+		F4B13AFD2CDDD50A0040F638 /* KekaCoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B13AFC2CDDD50A0040F638 /* KekaCoreDataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4B13AD02CDCD9970040F638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4B13AB12CDCD9950040F638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B13AB82CDCD9950040F638;
+			remoteInfo = KekaHRApp;
+		};
+		F4B13ADA2CDCD9970040F638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4B13AB12CDCD9950040F638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B13AB82CDCD9950040F638;
+			remoteInfo = KekaHRApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4B13AB92CDCD9950040F638 /* KekaHRApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KekaHRApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B13ABC2CDCD9950040F638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4B13ABE2CDCD9950040F638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4B13AC02CDCD9950040F638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4B13AC32CDCD9950040F638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4B13AC52CDCD9970040F638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4B13AC82CDCD9970040F638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4B13ACA2CDCD9970040F638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B13ACF2CDCD9970040F638 /* KekaHRAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KekaHRAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B13AD32CDCD9970040F638 /* KekaHRAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KekaHRAppTests.swift; sourceTree = "<group>"; };
+		F4B13AD92CDCD9970040F638 /* KekaHRAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KekaHRAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B13ADD2CDCD9970040F638 /* KekaHRAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KekaHRAppUITests.swift; sourceTree = "<group>"; };
+		F4B13ADF2CDCD9970040F638 /* KekaHRAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KekaHRAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F4B13AEE2CDCDC1D0040F638 /* KekaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KekaModel.swift; sourceTree = "<group>"; };
+		F4B13AF02CDCDD8E0040F638 /* KekeAPITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KekeAPITableViewCell.swift; sourceTree = "<group>"; };
+		F4B13AF22CDD02000040F638 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		F4B13AF42CDD05000040F638 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F4B13AF62CDD1DA50040F638 /* KekaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KekaViewModel.swift; sourceTree = "<group>"; };
+		F4B13AF82CDD2ACA0040F638 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F4B13AFA2CDDC62B0040F638 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		F4B13AFC2CDDD50A0040F638 /* KekaCoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KekaCoreDataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4B13AB62CDCD9950040F638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B13ACC2CDCD9970040F638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B13AD62CDCD9970040F638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4B13AB02CDCD9950040F638 = {
+			isa = PBXGroup;
+			children = (
+				F4B13ABB2CDCD9950040F638 /* KekaHRApp */,
+				F4B13AD22CDCD9970040F638 /* KekaHRAppTests */,
+				F4B13ADC2CDCD9970040F638 /* KekaHRAppUITests */,
+				F4B13ABA2CDCD9950040F638 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4B13ABA2CDCD9950040F638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4B13AB92CDCD9950040F638 /* KekaHRApp.app */,
+				F4B13ACF2CDCD9970040F638 /* KekaHRAppTests.xctest */,
+				F4B13AD92CDCD9970040F638 /* KekaHRAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4B13ABB2CDCD9950040F638 /* KekaHRApp */ = {
+			isa = PBXGroup;
+			children = (
+				F4B13ABC2CDCD9950040F638 /* AppDelegate.swift */,
+				F4B13ABE2CDCD9950040F638 /* SceneDelegate.swift */,
+				F4B13AC02CDCD9950040F638 /* ViewController.swift */,
+				F4B13AC22CDCD9950040F638 /* Main.storyboard */,
+				F4B13AC52CDCD9970040F638 /* Assets.xcassets */,
+				F4B13AC72CDCD9970040F638 /* LaunchScreen.storyboard */,
+				F4B13ACA2CDCD9970040F638 /* Info.plist */,
+				F4B13AEE2CDCDC1D0040F638 /* KekaModel.swift */,
+				F4B13AF02CDCDD8E0040F638 /* KekeAPITableViewCell.swift */,
+				F4B13AF22CDD02000040F638 /* APIManager.swift */,
+				F4B13AF42CDD05000040F638 /* CoreDataManager.swift */,
+				F4B13AF62CDD1DA50040F638 /* KekaViewModel.swift */,
+				F4B13AF82CDD2ACA0040F638 /* Extensions.swift */,
+				F4B13AFA2CDDC62B0040F638 /* Protocols.swift */,
+				F4B13AFC2CDDD50A0040F638 /* KekaCoreDataModel.swift */,
+			);
+			path = KekaHRApp;
+			sourceTree = "<group>";
+		};
+		F4B13AD22CDCD9970040F638 /* KekaHRAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4B13AD32CDCD9970040F638 /* KekaHRAppTests.swift */,
+			);
+			path = KekaHRAppTests;
+			sourceTree = "<group>";
+		};
+		F4B13ADC2CDCD9970040F638 /* KekaHRAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4B13ADD2CDCD9970040F638 /* KekaHRAppUITests.swift */,
+				F4B13ADF2CDCD9970040F638 /* KekaHRAppUITestsLaunchTests.swift */,
+			);
+			path = KekaHRAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4B13AB82CDCD9950040F638 /* KekaHRApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B13AE32CDCD9970040F638 /* Build configuration list for PBXNativeTarget "KekaHRApp" */;
+			buildPhases = (
+				F4B13AB52CDCD9950040F638 /* Sources */,
+				F4B13AB62CDCD9950040F638 /* Frameworks */,
+				F4B13AB72CDCD9950040F638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KekaHRApp;
+			productName = KekaHRApp;
+			productReference = F4B13AB92CDCD9950040F638 /* KekaHRApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4B13ACE2CDCD9970040F638 /* KekaHRAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B13AE62CDCD9970040F638 /* Build configuration list for PBXNativeTarget "KekaHRAppTests" */;
+			buildPhases = (
+				F4B13ACB2CDCD9970040F638 /* Sources */,
+				F4B13ACC2CDCD9970040F638 /* Frameworks */,
+				F4B13ACD2CDCD9970040F638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4B13AD12CDCD9970040F638 /* PBXTargetDependency */,
+			);
+			name = KekaHRAppTests;
+			productName = KekaHRAppTests;
+			productReference = F4B13ACF2CDCD9970040F638 /* KekaHRAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4B13AD82CDCD9970040F638 /* KekaHRAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B13AE92CDCD9970040F638 /* Build configuration list for PBXNativeTarget "KekaHRAppUITests" */;
+			buildPhases = (
+				F4B13AD52CDCD9970040F638 /* Sources */,
+				F4B13AD62CDCD9970040F638 /* Frameworks */,
+				F4B13AD72CDCD9970040F638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4B13ADB2CDCD9970040F638 /* PBXTargetDependency */,
+			);
+			name = KekaHRAppUITests;
+			productName = KekaHRAppUITests;
+			productReference = F4B13AD92CDCD9970040F638 /* KekaHRAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4B13AB12CDCD9950040F638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F4B13AB82CDCD9950040F638 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F4B13ACE2CDCD9970040F638 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F4B13AB82CDCD9950040F638;
+					};
+					F4B13AD82CDCD9970040F638 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F4B13AB82CDCD9950040F638;
+					};
+				};
+			};
+			buildConfigurationList = F4B13AB42CDCD9950040F638 /* Build configuration list for PBXProject "KekaHRApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4B13AB02CDCD9950040F638;
+			productRefGroup = F4B13ABA2CDCD9950040F638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4B13AB82CDCD9950040F638 /* KekaHRApp */,
+				F4B13ACE2CDCD9970040F638 /* KekaHRAppTests */,
+				F4B13AD82CDCD9970040F638 /* KekaHRAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4B13AB72CDCD9950040F638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B13AC62CDCD9970040F638 /* Assets.xcassets in Resources */,
+				F4B13AC92CDCD9970040F638 /* Base in Resources */,
+				F4B13AC42CDCD9950040F638 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B13ACD2CDCD9970040F638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B13AD72CDCD9970040F638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4B13AB52CDCD9950040F638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B13AC12CDCD9950040F638 /* ViewController.swift in Sources */,
+				F4B13AF12CDCDD8E0040F638 /* KekeAPITableViewCell.swift in Sources */,
+				F4B13AFD2CDDD50A0040F638 /* KekaCoreDataModel.swift in Sources */,
+				F4B13AF72CDD1DA50040F638 /* KekaViewModel.swift in Sources */,
+				F4B13AEF2CDCDC1D0040F638 /* KekaModel.swift in Sources */,
+				F4B13AF92CDD2ACA0040F638 /* Extensions.swift in Sources */,
+				F4B13AFB2CDDC62B0040F638 /* Protocols.swift in Sources */,
+				F4B13ABD2CDCD9950040F638 /* AppDelegate.swift in Sources */,
+				F4B13ABF2CDCD9950040F638 /* SceneDelegate.swift in Sources */,
+				F4B13AF52CDD05000040F638 /* CoreDataManager.swift in Sources */,
+				F4B13AF32CDD02000040F638 /* APIManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B13ACB2CDCD9970040F638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B13AD42CDCD9970040F638 /* KekaHRAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B13AD52CDCD9970040F638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B13AE02CDCD9970040F638 /* KekaHRAppUITestsLaunchTests.swift in Sources */,
+				F4B13ADE2CDCD9970040F638 /* KekaHRAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4B13AD12CDCD9970040F638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4B13AB82CDCD9950040F638 /* KekaHRApp */;
+			targetProxy = F4B13AD02CDCD9970040F638 /* PBXContainerItemProxy */;
+		};
+		F4B13ADB2CDCD9970040F638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4B13AB82CDCD9950040F638 /* KekaHRApp */;
+			targetProxy = F4B13ADA2CDCD9970040F638 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4B13AC22CDCD9950040F638 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4B13AC32CDCD9950040F638 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4B13AC72CDCD9970040F638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4B13AC82CDCD9970040F638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4B13AE12CDCD9970040F638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4B13AE22CDCD9970040F638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4B13AE42CDCD9970040F638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5HQUY6293;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KekaHRApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.airScanner.KekaHRApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4B13AE52CDCD9970040F638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5HQUY6293;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KekaHRApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.airScanner.KekaHRApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4B13AE72CDCD9970040F638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5HQUY6293;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.airScanner.KekaHRAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KekaHRApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KekaHRApp";
+			};
+			name = Debug;
+		};
+		F4B13AE82CDCD9970040F638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5HQUY6293;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.airScanner.KekaHRAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KekaHRApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KekaHRApp";
+			};
+			name = Release;
+		};
+		F4B13AEA2CDCD9970040F638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5HQUY6293;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.airScanner.KekaHRAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KekaHRApp;
+			};
+			name = Debug;
+		};
+		F4B13AEB2CDCD9970040F638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5HQUY6293;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sai.airScanner.KekaHRAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KekaHRApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4B13AB42CDCD9950040F638 /* Build configuration list for PBXProject "KekaHRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B13AE12CDCD9970040F638 /* Debug */,
+				F4B13AE22CDCD9970040F638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B13AE32CDCD9970040F638 /* Build configuration list for PBXNativeTarget "KekaHRApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B13AE42CDCD9970040F638 /* Debug */,
+				F4B13AE52CDCD9970040F638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B13AE62CDCD9970040F638 /* Build configuration list for PBXNativeTarget "KekaHRAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B13AE72CDCD9970040F638 /* Debug */,
+				F4B13AE82CDCD9970040F638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B13AE92CDCD9970040F638 /* Build configuration list for PBXNativeTarget "KekaHRAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B13AEA2CDCD9970040F638 /* Debug */,
+				F4B13AEB2CDCD9970040F638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4B13AB12CDCD9950040F638 /* Project object */;
+}
