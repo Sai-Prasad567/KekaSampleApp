@@ -97,11 +97,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource, APIDelegat
         if let isSelected = selectedIndex[indexPath.section] {
             selectedIndex.removeValue(forKey: indexPath.section)
             cell?.backgroundColor = .clear
-            self.selectedItems.removeValue(forKey: indexPath.section)
+            selectedItems.removeValue(forKey: indexPath.section)
         }
         else {
             selectedIndex[indexPath.section] = true
-            self.selectedItems[indexPath.section] = viewModel.information[indexPath.section].headline.main
+            selectedItems[indexPath.section] = viewModel.information[indexPath.section].headline.main
         }
     }
     
