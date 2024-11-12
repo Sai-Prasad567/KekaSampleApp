@@ -21,6 +21,10 @@ class ViewController: UIViewController {
     }()
     
     private let viewModel = KekaViewModel()
+    var selectedItems : [Int:String] = [:]
+    var selectedIndex: [Int:Bool] = [:]
+    
+    let submitButton = UIButton()
     
     init(){
         super.init(nibName: nil, bundle: nil)
@@ -35,9 +39,16 @@ class ViewController: UIViewController {
     
     func setUpViews() {
         self.view.backgroundColor = .white
+        self.view.addSubview(submitButton)
         self.view.addSubview(tableView)
         
-        tableView.addConstraint(top: self.view.topAnchor, leading:  self.view.leadingAnchor, bottom: self.view.bottomAnchor, trailing: self.view.trailingAnchor, padding: UIEdgeInsets(top: 60, left: 10, bottom: 50, right: 10))
+        submitButton.setTitle("Submit", for: .normal)
+        submitButton.backgroundColor = .lightGray
+        submitButton.titleLabel?.textColor = .black
+        submitButton.addTarget(self, action: #selector(printDetails), for: .touchUpInside)
+        submitButton.isHidden = true
+        submitButton.addConstraint(top: self.view.topAnchor, leading: self.view.leadingAnchor, bottom: nil, trailing: nil,padding: UIEdgeInsets(top: 120, left: 20, bottom: 0, right: 0),size: CGSize(width: 100, height: 50))
+        tableView.addConstraint(top: self.submitButton.bottomAnchor, leading:  self.view.leadingAnchor, bottom: self.view.bottomAnchor, trailing: self.view.trailingAnchor, padding: UIEdgeInsets(top: 60, left: 10, bottom: 50, right: 10))
         tableView.register(KekaAPITableViewCell.self, forCellReuseIdentifier: "dictCell")
     }
 
@@ -46,6 +57,14 @@ class ViewController: UIViewController {
         viewModel.loadInformation() { [weak self] in
             DispatchQueue.main.async {
                 self?.tableView.reloadData()
+            }
+        }
+    }
+    
+    @objc func printDetails() {
+        if !selectedItems.isEmpty {
+            for (key,items) in self.selectedItems {
+                print(items)
             }
         }
     }
@@ -71,6 +90,21 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource, APIDelegat
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let cell = tableView.cellForRow(at: indexPath)
+        cell?.backgroundColor = .red
+        if let isSelected = selectedIndex[indexPath.section] {
+            selectedIndex.removeValue(forKey: indexPath.section)
+            cell?.backgroundColor = .clear
+            self.selectedItems.removeValue(forKey: indexPath.section)
+        }
+        else {
+            selectedIndex[indexPath.section] = true
+            self.selectedItems[indexPath.section] = viewModel.information[indexPath.section].headline.main
+        }
+    }
+    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 125
     }
@@ -78,6 +112,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource, APIDelegat
     func getAPIResponse() {
         DispatchQueue.main.async {
             self.tableView.reloadData()
+            self.submitButton.isHidden = false
         }
     }
 }
